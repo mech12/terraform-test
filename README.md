@@ -10,6 +10,8 @@ brew install hashicorp/tap/terraform
 # 실행
 ```bash
 terraform init 
+terraform validate
+terraform fmt
 terraform plan # 실행 전에 실행해야 함
 terraform apply
 terraform apply -auto-approve # 자동 승인
@@ -18,4 +20,6 @@ terraform state list
 terraform state show <상태이름>
 terraform destroy
 ```
+
+
 
